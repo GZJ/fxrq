@@ -8,6 +8,7 @@ Make sure to install the required dependencies:
 
 ```shell
 go get -u github.com/ktr0731/go-fuzzyfinder
+go get -u github.com/gzj/fxrq
 go install github.com/gzj/fxrq
 ```
 
