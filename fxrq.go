@@ -82,7 +82,6 @@ func flags() Config {
 
 	config, err := NewConfig(*configFile)
 	if err != nil {
-		log.Println("Failed to open config file:", err)
 		config = Config{
 			BaseCurrency: *baseCurrency,
 			Amount:       *amount,
